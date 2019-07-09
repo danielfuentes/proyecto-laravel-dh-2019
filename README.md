@@ -1,4 +1,4 @@
-<p align="center">Estimadas amigas y amigos, para que puedan lograr activar este proyecto en sus equipos personales, deben hacer lo siguinete:
+<p align="center">Estimadas amigas y amigos, para que puedan lograr activar este proyecto en sus equipos personales, deben hacer lo siguiente:
 1.- Clonar el proyecto
 2.- Aplicar en la consola el comando: composer install (Para que implementen la carpeta  VENDOR.)
 3.- Luego deben crear su archhivo .ENV e identificar el nombre de su base de datos (La que deseen)
