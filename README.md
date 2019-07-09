@@ -1,13 +1,17 @@
-<p align="center">Estimadas amigas y amigos, para que puedan lograr activar este proyecto en sus equipos personales, deben hacer lo siguiente:
-1.- Clonar el proyecto
-2.- Aplicar en la consola el comando: composer install (Para que implementen la carpeta  VENDOR.)
-3.- Luego deben crear su archhivo .ENV e identificar el nombre de su base de datos (La que deseen)
-4.- Si desean también pueden ejecutar el comando php artisan key:generate
-5.- Luego debe ejecutar el comando php artisan migrate 
-6.- Luego de haber creado todas las tablas en su base de datos, ahora debe ejecutar el comando: php artisan db:seed --force.
-7.- Finalmente debe activar el servidor, ejecutando el comando php artisan serve
-8.- Luego de registrar su usuario y desea que este sea un usuario administrador, ingrese a la base de datos que creo busque la tabla users y en el campo role coloque el número 7.
-Esperamos que este proyecto les pueda resulgtar de apoyo y así poder aclarar cualquier duda que posean para lograr llevar a Feliz Termino sus proyectos. Lo desarrollamos con mucho empeño Hernan Facundo y mi Persona MSc. Ángel Daniel Fuentes S. Les deseamos los mejores de los éxitos.</p>
+## Estimadas amigas y amigos
+
+Para que puedan lograr activar este proyecto en sus equipos personales, deben hacer lo siguiente:
+- Clonar el proyecto
+- Aplicar en la consola el comando: composer install (Para que implementen la carpeta  VENDOR.)
+- Luego deben crear su archhivo .ENV e identificar el nombre de su base de datos (La que deseen)
+- Si desean también pueden ejecutar el comando php artisan key:generate
+- Luego debe ejecutar el comando php artisan migrate 
+- Luego de haber creado todas las tablas en su base de datos, ahora debe ejecutar el comando: php artisan db:seed --force.
+- Finalmente debe activar el servidor, ejecutando el comando php artisan serve
+- Luego de registrar su usuario y desea que este sea un usuario administrador, ingrese a la base de datos que creo busque la tabla users y en el campo role coloque el número 7.
+
+Esperamos que este proyecto les pueda resultar de apoyo y así poder aclarar cualquier duda que posean sobre los diversos temas vistos sobre laravel, y de esta forma lograr llevar a Feliz Termino sus Proyectos. 
+Lo desarrollamos con mucho empeño Hernan Facundo y mi Persona MSc. Ángel Daniel Fuentes S. Les deseamos los mejores de los éxitos.
 
 
 
