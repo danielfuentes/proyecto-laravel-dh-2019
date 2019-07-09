@@ -1,0 +1,11 @@
+#login-container {
+    background-image: url('../images/backgrounds/login-bg01.jpg');
+    background-size: cover;
+}
+
+.title {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgb(51, 54, 255);
+    color:#fff;
+}
+

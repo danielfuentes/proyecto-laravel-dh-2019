@@ -1,0 +1,134 @@
+#register-container {
+	background-image:url(../images/backgrounds/register-bg01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+    
+    .form-control{
+		height: 40px;
+		width:100%;
+		box-shadow: none;
+		color: #969fa4;
+	}
+	.form-control:focus{
+		border-color: #5cb85c;
+	}
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+	.formu1{
+		width: 500px;
+		margin: 0 auto;
+        padding: 30px 0;
+        
+	}
+	.formu1 h2{
+		color: #424141;
+        margin: 0 0 15px;
+		position: relative;
+		text-align: center;
+    }
+	.formu1 h2:before, .formu1 h2:after{
+		content: "";
+		height: 2px;
+		width: 25%;
+		background: #d4d4d4;
+		position: absolute;
+		top: 50%;
+		z-index: 1;
+	}	
+	.formu1 h2:before{
+		left: 0;
+	}
+	.formu1 h2:after{
+		right: 0;
+	}
+    .formu1 .hint-text{
+		color: #999;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+    .formu1 form{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #f2f3f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.formu1 .form-group{
+		margin-bottom: 20px;
+	}
+	.formu1 input[type="checkbox"]{
+		margin-top: 3px;
+	}
+	.formu1 .btn{        
+        font-size: 16px;
+        font-weight: bold;		
+		min-width: 140px;
+        outline: none !important;
+    }
+	.formu1 .row div:first-child{
+		padding-right: 10px;
+	}
+	.formu1 .row div:last-child{
+		padding-left: 10px;
+	}    	
+    .formu1 a{
+		color: #fff;
+		text-decoration: underline;
+	}
+    .formu1 a:hover{
+		text-decoration: none;
+	}
+	.formu1 form a{
+		/* color: rgb(236, 22, 22); */
+		text-decoration: none;
+	}	
+	.formu1 form a:hover{
+		text-decoration: underline;
+    } 
+    .separador {
+        margin: 20px 0 10px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .separador i {
+        padding: 0 10px;
+        background: #f2f3f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }
+    .social-btn .btn {
+        margin: 10px 0;
+        font-size: 15px;
+        text-align: center; 
+        line-height: 24px;       
+    }
+	.social-btn .btn i{
+		float: center;
+		margin: 4px 15px  0 5px;
+        min-width: 15px;
+    }
+
+	.alert {
+		width: 100%;
+		height: 30px;
+		line-height:30px;
+		padding:0px 15px;
+		display: inline-block;
+		text-align: center;
+	}
+
+
+    
+    div a img{
+        width: 25px;
+    }
+    .form-group a {
+       color: #2ab13c;
+   }

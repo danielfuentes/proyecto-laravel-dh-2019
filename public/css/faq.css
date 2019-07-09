@@ -1,0 +1,101 @@
+body {
+    background-image: url('../images/backgrounds/faq_bg01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title-container {
+    color:white;
+    border-radius: 5px;
+    padding:1% 2%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-size: 1.2em;
+    margin-bottom: 3%;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-container {
+    width: 40vw;
+}
+
+.article-title {
+    font-size: 1.5em;
+    text-align: center;
+    color: #f4f9f4;
+    padding:5px 10px;
+    text-shadow: 1px 1px 1px black;
+    transition: transform(0.8s);
+}
+
+.section-container:hover > .article-title {
+    transform: scale(1.2);
+}
+
+.section-container:hover > .respuesta {
+    opacity: 1;
+}
+
+.respuesta{
+    background-image: url('../images/backgrounds/clothes-bg01.jpg');
+    opacity: 0.9;
+    color:#000;
+    text-align: justify;
+    border-radius: 5px;
+    text-indent: 3%;
+    padding: 5px 10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section-container {
+        width: 90vw;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .container {
+        justify-content: center;
+    }
+
+
+    .header-container h1{
+        margin:0;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+
+    .section-container {
+        width: 90vw;
+    }
+    
+    .article-title {
+        transform: none;
+        transition: none;
+        padding: 25px 10px;
+        border-radius: 0;
+    }
+
+    .respuesta {
+        display: none;
+    }
+    .section-container:hover > .respuesta {
+        display: block;
+    }
+}
